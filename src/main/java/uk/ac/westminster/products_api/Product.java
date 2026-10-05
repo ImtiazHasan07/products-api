@@ -17,11 +17,9 @@ public class Product {
         return id;
     }
 
-// As no getName() no longer exists, it looks, as it looks for a public getX() method for each field, there is no getName() to call, so the field is skipped.
-
-//    public String getName() {
-//        return name;
-//    }
+    public String getName() {
+        return name;
+    }
 
     public double getPrice() {
         return price;
